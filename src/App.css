@@ -1,0 +1,51 @@
+/* css for body */
+body{
+  background: ghostwhite;
+}
+
+/* css for app component */
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* css for button in button component */
+.button{
+  cursor: pointer;
+  background: darkcyan;
+  color: white;
+  /* border: none; */
+  border-radius: 10px;
+  /* border-bottom: dashed 2px gray; */
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+}
+.button:hover{
+  background: white;
+  color: darkcyan;
+}
+
+/* css for h2 heading */
+h1{
+  color: darkcyan;
+}
+
+
+/* css for form div */
+.form-div{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  width: 80%;
+  margin-left: 10%;
+  padding: 5px;
+}
+
+/* css for form label */
+.form-div label{
+  width: 300px;
+  text-align: left;
+  font-weight: 600;
+  color: blue;
+}
